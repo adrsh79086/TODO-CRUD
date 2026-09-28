@@ -6,13 +6,15 @@ const Home = () => {
 
       <h1>Welcome to User Management</h1>
 
-      <Link to="/user">
-        <button>View Users</button>
-      </Link>
+   <div className="button-container">
+  <Link to="/user">
+    <button>View Users</button>
+  </Link>
 
-      <Link to="/adduser">
-        <button>Add User</button>
-      </Link>
+  <Link to="/adduser">
+    <button>Add User</button>
+  </Link>
+</div>
 
     </div>
   );
